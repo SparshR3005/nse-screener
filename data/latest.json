@@ -1,0 +1,3564 @@
+{
+ "as_of": "2026-08-12",
+ "session": "pre",
+ "volume_elapsed_pct": 0,
+ "provisional": false,
+ "screens": {
+  "MACD bullish crossover": {
+   "verdict": "NO EDGE",
+   "edge_pct": -0.36,
+   "t": -1.7,
+   "n": 19,
+   "hits": [
+    {
+     "symbol": "ADANIPOWER",
+     "close": 207.0,
+     "rsi": 39,
+     "adx": 15,
+     "ret1y": 83,
+     "from_52wh": -17,
+     "turnover_cr": 341.6,
+     "sector": "Utilities"
+    },
+    {
+     "symbol": "JSWSTEEL",
+     "close": 1269.1,
+     "rsi": 49,
+     "adx": 26,
+     "ret1y": 24,
+     "from_52wh": -5,
+     "turnover_cr": 194.0,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "MRPL",
+     "close": 175.4,
+     "rsi": 57,
+     "adx": 23,
+     "ret1y": 45,
+     "from_52wh": -15,
+     "turnover_cr": 165.7,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "GAIL",
+     "close": 177.9,
+     "rsi": 57,
+     "adx": 18,
+     "ret1y": 6,
+     "from_52wh": -2,
+     "turnover_cr": 159.4,
+     "sector": "Utilities"
+    },
+    {
+     "symbol": "OIL",
+     "close": 472.0,
+     "rsi": 65,
+     "adx": 28,
+     "ret1y": 12,
+     "from_52wh": -9,
+     "turnover_cr": 130.5,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "POLICYBZR",
+     "close": 1739.0,
+     "rsi": 67,
+     "adx": 20,
+     "ret1y": -2,
+     "from_52wh": -11,
+     "turnover_cr": 127.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "ZYDUSLIFE",
+     "close": 1205.0,
+     "rsi": 71,
+     "adx": 22,
+     "ret1y": 27,
+     "from_52wh": 0,
+     "turnover_cr": 105.0,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "BANKINDIA",
+     "close": 145.5,
+     "rsi": 57,
+     "adx": 10,
+     "ret1y": 37,
+     "from_52wh": -15,
+     "turnover_cr": 102.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "MAHABANK",
+     "close": 81.9,
+     "rsi": 54,
+     "adx": 10,
+     "ret1y": 55,
+     "from_52wh": -13,
+     "turnover_cr": 76.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "TIINDIA",
+     "close": 2839.0,
+     "rsi": 49,
+     "adx": 20,
+     "ret1y": 1,
+     "from_52wh": -16,
+     "turnover_cr": 70.4,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "MOTILALOFS",
+     "close": 901.0,
+     "rsi": 51,
+     "adx": 31,
+     "ret1y": -1,
+     "from_52wh": -17,
+     "turnover_cr": 63.5,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "ANANDRATHI",
+     "close": 2189.0,
+     "rsi": 73,
+     "adx": 30,
+     "ret1y": 69,
+     "from_52wh": 0,
+     "turnover_cr": 36.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "TATACOMM",
+     "close": 1736.2,
+     "rsi": 39,
+     "adx": 35,
+     "ret1y": 5,
+     "from_52wh": -16,
+     "turnover_cr": 33.8,
+     "sector": "Communication Services"
+    },
+    {
+     "symbol": "KAJARIACER",
+     "close": 1252.2,
+     "rsi": 64,
+     "adx": 21,
+     "ret1y": 7,
+     "from_52wh": -3,
+     "turnover_cr": 27.1,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "close": 4125.8,
+     "rsi": 52,
+     "adx": 12,
+     "ret1y": 1,
+     "from_52wh": -5,
+     "turnover_cr": 25.7,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "COHANCE",
+     "close": 444.4,
+     "rsi": 53,
+     "adx": 27,
+     "ret1y": -55,
+     "from_52wh": -56,
+     "turnover_cr": 19.6,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "NAVA",
+     "close": 589.2,
+     "rsi": 55,
+     "adx": 18,
+     "ret1y": -3,
+     "from_52wh": -19,
+     "turnover_cr": 11.5,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "RITES",
+     "close": 223.6,
+     "rsi": 53,
+     "adx": 27,
+     "ret1y": -8,
+     "from_52wh": -16,
+     "turnover_cr": 10.9,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "AAVAS",
+     "close": 1416.2,
+     "rsi": 50,
+     "adx": 17,
+     "ret1y": -16,
+     "from_52wh": -18,
+     "turnover_cr": 7.0,
+     "sector": "Financial Services"
+    }
+   ]
+  },
+  "Golden crossover (50/200)": {
+   "verdict": "NO EDGE",
+   "edge_pct": -0.73,
+   "t": -1.4,
+   "n": 4,
+   "hits": [
+    {
+     "symbol": "M&MFIN",
+     "close": 395.9,
+     "rsi": 62,
+     "adx": 48,
+     "ret1y": 57,
+     "from_52wh": -4,
+     "turnover_cr": 149.7,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "GRSE",
+     "close": 2576.4,
+     "rsi": 46,
+     "adx": 8,
+     "ret1y": 1,
+     "from_52wh": -17,
+     "turnover_cr": 81.9,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "GMDCLTD",
+     "close": 603.2,
+     "rsi": 58,
+     "adx": 22,
+     "ret1y": 61,
+     "from_52wh": -19,
+     "turnover_cr": 48.3,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "DEEPAKNTR",
+     "close": 1718.4,
+     "rsi": 53,
+     "adx": 27,
+     "ret1y": -5,
+     "from_52wh": -8,
+     "turnover_cr": 28.4,
+     "sector": "Basic Materials"
+    }
+   ]
+  },
+  "Recovery from lows": {
+   "verdict": "NEGATIVE",
+   "edge_pct": -1.52,
+   "t": -2.8,
+   "n": 6,
+   "hits": [
+    {
+     "symbol": "TCS",
+     "close": 2349.7,
+     "rsi": 52,
+     "adx": 24,
+     "ret1y": -19,
+     "from_52wh": -27,
+     "turnover_cr": 739.3,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "ICICIPRULI",
+     "close": 506.4,
+     "rsi": 51,
+     "adx": 14,
+     "ret1y": -15,
+     "from_52wh": -26,
+     "turnover_cr": 64.4,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "NEWGEN",
+     "close": 535.2,
+     "rsi": 51,
+     "adx": 26,
+     "ret1y": -34,
+     "from_52wh": -46,
+     "turnover_cr": 64.2,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "ITCHOTELS",
+     "close": 168.3,
+     "rsi": 50,
+     "adx": 20,
+     "ret1y": -24,
+     "from_52wh": -32,
+     "turnover_cr": 37.0,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "UBL",
+     "close": 1388.3,
+     "rsi": 51,
+     "adx": 20,
+     "ret1y": -27,
+     "from_52wh": -28,
+     "turnover_cr": 19.2,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "ABREL",
+     "close": 1375.4,
+     "rsi": 46,
+     "adx": 15,
+     "ret1y": -27,
+     "from_52wh": -29,
+     "turnover_cr": 12.7,
+     "sector": "Real Estate"
+    }
+   ]
+  },
+  "Trend reversal (reclaim 200DMA)": {
+   "verdict": "NEGATIVE",
+   "edge_pct": -2.19,
+   "t": -4.9,
+   "n": 5,
+   "hits": [
+    {
+     "symbol": "BHARTIARTL",
+     "close": 1945.0,
+     "rsi": 55,
+     "adx": 30,
+     "ret1y": 5,
+     "from_52wh": -9,
+     "turnover_cr": 1049.2,
+     "sector": "Communication Services"
+    },
+    {
+     "symbol": "POLICYBZR",
+     "close": 1739.0,
+     "rsi": 67,
+     "adx": 20,
+     "ret1y": -2,
+     "from_52wh": -11,
+     "turnover_cr": 127.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "APLAPOLLO",
+     "close": 1997.1,
+     "rsi": 66,
+     "adx": 21,
+     "ret1y": 26,
+     "from_52wh": -12,
+     "turnover_cr": 77.1,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "COHANCE",
+     "close": 444.4,
+     "rsi": 53,
+     "adx": 27,
+     "ret1y": -55,
+     "from_52wh": -56,
+     "turnover_cr": 19.6,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "JSWDULUX",
+     "close": 3099.4,
+     "rsi": 55,
+     "adx": 21,
+     "ret1y": -10,
+     "from_52wh": -13,
+     "turnover_cr": 4.6,
+     "sector": null
+    }
+   ]
+  },
+  "Oversold bounce (RSI<32 in uptrend)": {
+   "verdict": "NO EDGE",
+   "edge_pct": -0.27,
+   "t": -0.4,
+   "n": 0,
+   "hits": []
+  },
+  "52-week breakout on volume": {
+   "verdict": "EDGE",
+   "edge_pct": 1.29,
+   "t": 4.2,
+   "n": 13,
+   "hits": [
+    {
+     "symbol": "HAL",
+     "close": 4995.0,
+     "rsi": 77,
+     "adx": 25,
+     "ret1y": 14,
+     "from_52wh": 0,
+     "turnover_cr": 301.3,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "APARINDS",
+     "close": 18000.0,
+     "rsi": 77,
+     "adx": 34,
+     "ret1y": 105,
+     "from_52wh": 0,
+     "turnover_cr": 258.4,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "CHENNPETRO",
+     "close": 1379.5,
+     "rsi": 66,
+     "adx": 30,
+     "ret1y": 121,
+     "from_52wh": -3,
+     "turnover_cr": 201.7,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "BOSCHLTD",
+     "close": 46480.0,
+     "rsi": 77,
+     "adx": 33,
+     "ret1y": 16,
+     "from_52wh": 0,
+     "turnover_cr": 106.9,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "SIEMENS",
+     "close": 4019.0,
+     "rsi": 72,
+     "adx": 32,
+     "ret1y": 34,
+     "from_52wh": 0,
+     "turnover_cr": 106.4,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "ZYDUSLIFE",
+     "close": 1205.0,
+     "rsi": 71,
+     "adx": 22,
+     "ret1y": 27,
+     "from_52wh": 0,
+     "turnover_cr": 105.0,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "BELRISE",
+     "close": 261.4,
+     "rsi": 73,
+     "adx": 23,
+     "ret1y": 86,
+     "from_52wh": 0,
+     "turnover_cr": 79.5,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "ANTHEM",
+     "close": 878.4,
+     "rsi": 72,
+     "adx": 29,
+     "ret1y": 19,
+     "from_52wh": -1,
+     "turnover_cr": 50.3,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "ANANDRATHI",
+     "close": 2189.0,
+     "rsi": 73,
+     "adx": 30,
+     "ret1y": 69,
+     "from_52wh": 0,
+     "turnover_cr": 36.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "AARTIIND",
+     "close": 530.9,
+     "rsi": 69,
+     "adx": 22,
+     "ret1y": 31,
+     "from_52wh": 0,
+     "turnover_cr": 32.8,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "FINCABLES",
+     "close": 1280.1,
+     "rsi": 78,
+     "adx": 25,
+     "ret1y": 47,
+     "from_52wh": 0,
+     "turnover_cr": 21.5,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "VIJAYA",
+     "close": 1510.6,
+     "rsi": 71,
+     "adx": 27,
+     "ret1y": 40,
+     "from_52wh": 0,
+     "turnover_cr": 21.0,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "MINDACORP",
+     "close": 736.3,
+     "rsi": 64,
+     "adx": 25,
+     "ret1y": 51,
+     "from_52wh": 0,
+     "turnover_cr": 15.3,
+     "sector": "Consumer Cyclical"
+    }
+   ]
+  },
+  "Volume thrust / accumulation": {
+   "verdict": "EDGE",
+   "edge_pct": 1.89,
+   "t": 5.3,
+   "n": 12,
+   "hits": [
+    {
+     "symbol": "NATIONALUM",
+     "close": 420.0,
+     "rsi": 78,
+     "adx": 27,
+     "ret1y": 143,
+     "from_52wh": -4,
+     "turnover_cr": 215.6,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "CHENNPETRO",
+     "close": 1379.5,
+     "rsi": 66,
+     "adx": 30,
+     "ret1y": 121,
+     "from_52wh": -3,
+     "turnover_cr": 201.7,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "PNB",
+     "close": 119.0,
+     "rsi": 74,
+     "adx": 29,
+     "ret1y": 19,
+     "from_52wh": -7,
+     "turnover_cr": 133.8,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "GLAND",
+     "close": 2891.2,
+     "rsi": 76,
+     "adx": 44,
+     "ret1y": 49,
+     "from_52wh": -1,
+     "turnover_cr": 105.3,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "ZYDUSLIFE",
+     "close": 1205.0,
+     "rsi": 71,
+     "adx": 22,
+     "ret1y": 27,
+     "from_52wh": 0,
+     "turnover_cr": 105.0,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "ARE&M",
+     "close": 969.4,
+     "rsi": 65,
+     "adx": 27,
+     "ret1y": 1,
+     "from_52wh": -7,
+     "turnover_cr": 65.0,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "DEVYANI",
+     "close": 140.2,
+     "rsi": 74,
+     "adx": 39,
+     "ret1y": -13,
+     "from_52wh": -26,
+     "turnover_cr": 46.6,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "SAPPHIRE",
+     "close": 231.7,
+     "rsi": 72,
+     "adx": 32,
+     "ret1y": -28,
+     "from_52wh": -30,
+     "turnover_cr": 45.1,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "AARTIIND",
+     "close": 530.9,
+     "rsi": 69,
+     "adx": 22,
+     "ret1y": 31,
+     "from_52wh": 0,
+     "turnover_cr": 32.8,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "FINCABLES",
+     "close": 1280.1,
+     "rsi": 78,
+     "adx": 25,
+     "ret1y": 47,
+     "from_52wh": 0,
+     "turnover_cr": 21.5,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "VIJAYA",
+     "close": 1510.6,
+     "rsi": 71,
+     "adx": 27,
+     "ret1y": 40,
+     "from_52wh": 0,
+     "turnover_cr": 21.0,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "BERGEPAINT",
+     "close": 559.8,
+     "rsi": 68,
+     "adx": 29,
+     "ret1y": 0,
+     "from_52wh": -4,
+     "turnover_cr": 15.0,
+     "sector": "Basic Materials"
+    }
+   ]
+  },
+  "Pullback to 50DMA in uptrend": {
+   "verdict": "NO EDGE",
+   "edge_pct": -0.18,
+   "t": -0.9,
+   "n": 19,
+   "hits": [
+    {
+     "symbol": "LT",
+     "close": 4020.0,
+     "rsi": 56,
+     "adx": 21,
+     "ret1y": 13,
+     "from_52wh": -8,
+     "turnover_cr": 671.5,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "ADANIENSOL",
+     "close": 1599.0,
+     "rsi": 42,
+     "adx": 23,
+     "ret1y": 102,
+     "from_52wh": -8,
+     "turnover_cr": 326.6,
+     "sector": "Utilities"
+    },
+    {
+     "symbol": "CGPOWER",
+     "close": 888.0,
+     "rsi": 51,
+     "adx": 21,
+     "ret1y": 37,
+     "from_52wh": -9,
+     "turnover_cr": 320.6,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "APOLLOHOSP",
+     "close": 8597.0,
+     "rsi": 39,
+     "adx": 20,
+     "ret1y": 17,
+     "from_52wh": -5,
+     "turnover_cr": 227.9,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "ASIANPAINT",
+     "close": 2740.0,
+     "rsi": 54,
+     "adx": 14,
+     "ret1y": 14,
+     "from_52wh": -7,
+     "turnover_cr": 223.6,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "JSWSTEEL",
+     "close": 1269.1,
+     "rsi": 49,
+     "adx": 26,
+     "ret1y": 24,
+     "from_52wh": -5,
+     "turnover_cr": 194.0,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "MARICO",
+     "close": 855.0,
+     "rsi": 50,
+     "adx": 29,
+     "ret1y": 21,
+     "from_52wh": -3,
+     "turnover_cr": 166.7,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "BIOCON",
+     "close": 427.4,
+     "rsi": 51,
+     "adx": 15,
+     "ret1y": 12,
+     "from_52wh": -3,
+     "turnover_cr": 147.2,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "MAHABANK",
+     "close": 81.9,
+     "rsi": 54,
+     "adx": 10,
+     "ret1y": 55,
+     "from_52wh": -13,
+     "turnover_cr": 76.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "CGCL",
+     "close": 228.8,
+     "rsi": 46,
+     "adx": 41,
+     "ret1y": 31,
+     "from_52wh": -12,
+     "turnover_cr": 59.2,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "OBEROIRLTY",
+     "close": 1799.9,
+     "rsi": 48,
+     "adx": 20,
+     "ret1y": 14,
+     "from_52wh": -8,
+     "turnover_cr": 43.8,
+     "sector": "Real Estate"
+    },
+    {
+     "symbol": "ENGINERSIN",
+     "close": 239.2,
+     "rsi": 54,
+     "adx": 23,
+     "ret1y": 18,
+     "from_52wh": -9,
+     "turnover_cr": 25.1,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "IKS",
+     "close": 1785.6,
+     "rsi": 48,
+     "adx": 22,
+     "ret1y": 11,
+     "from_52wh": -7,
+     "turnover_cr": 25.1,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "STARHEALTH",
+     "close": 583.2,
+     "rsi": 50,
+     "adx": 27,
+     "ret1y": 34,
+     "from_52wh": -4,
+     "turnover_cr": 21.8,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "WELSPUNLIV",
+     "close": 165.2,
+     "rsi": 55,
+     "adx": 14,
+     "ret1y": 37,
+     "from_52wh": -5,
+     "turnover_cr": 21.0,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "CAPLIPOINT",
+     "close": 2472.4,
+     "rsi": 44,
+     "adx": 28,
+     "ret1y": 25,
+     "from_52wh": -7,
+     "turnover_cr": 18.3,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "CCL",
+     "close": 1135.5,
+     "rsi": 42,
+     "adx": 23,
+     "ret1y": 28,
+     "from_52wh": -8,
+     "turnover_cr": 18.2,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "USHAMART",
+     "close": 499.1,
+     "rsi": 49,
+     "adx": 11,
+     "ret1y": 37,
+     "from_52wh": -3,
+     "turnover_cr": 18.2,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "GODREJIND",
+     "close": 1235.2,
+     "rsi": 41,
+     "adx": 33,
+     "ret1y": 11,
+     "from_52wh": -13,
+     "turnover_cr": 10.3,
+     "sector": "Industrials"
+    }
+   ]
+  },
+  "Momentum leader": {
+   "verdict": "EDGE",
+   "edge_pct": 0.95,
+   "t": 3.1,
+   "n": 11,
+   "hits": [
+    {
+     "symbol": "HINDALCO",
+     "close": 1078.5,
+     "rsi": 71,
+     "adx": 29,
+     "ret1y": 62,
+     "from_52wh": -6,
+     "turnover_cr": 461.9,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "MCX",
+     "close": 2970.1,
+     "rsi": 64,
+     "adx": 21,
+     "ret1y": 96,
+     "from_52wh": -14,
+     "turnover_cr": 404.2,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "DATAPATTNS",
+     "close": 4491.0,
+     "rsi": 53,
+     "adx": 10,
+     "ret1y": 76,
+     "from_52wh": -8,
+     "turnover_cr": 341.3,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "NATIONALUM",
+     "close": 420.0,
+     "rsi": 78,
+     "adx": 27,
+     "ret1y": 143,
+     "from_52wh": -4,
+     "turnover_cr": 215.6,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "IIFL",
+     "close": 625.8,
+     "rsi": 70,
+     "adx": 44,
+     "ret1y": 48,
+     "from_52wh": -5,
+     "turnover_cr": 119.1,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "REDINGTON",
+     "close": 339.4,
+     "rsi": 68,
+     "adx": 48,
+     "ret1y": 39,
+     "from_52wh": -4,
+     "turnover_cr": 106.6,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "GLAND",
+     "close": 2891.2,
+     "rsi": 76,
+     "adx": 44,
+     "ret1y": 49,
+     "from_52wh": -1,
+     "turnover_cr": 105.3,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "PNBHOUSING",
+     "close": 1157.6,
+     "rsi": 66,
+     "adx": 22,
+     "ret1y": 44,
+     "from_52wh": 0,
+     "turnover_cr": 96.5,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "SCI",
+     "close": 298.8,
+     "rsi": 55,
+     "adx": 19,
+     "ret1y": 50,
+     "from_52wh": -13,
+     "turnover_cr": 58.6,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "SCHNEIDER",
+     "close": 1431.9,
+     "rsi": 59,
+     "adx": 14,
+     "ret1y": 43,
+     "from_52wh": -5,
+     "turnover_cr": 26.2,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "FINCABLES",
+     "close": 1280.1,
+     "rsi": 78,
+     "adx": 25,
+     "ret1y": 47,
+     "from_52wh": 0,
+     "turnover_cr": 21.5,
+     "sector": "Industrials"
+    }
+   ]
+  },
+  "Volatility squeeze release": {
+   "verdict": "NO EDGE",
+   "edge_pct": -0.54,
+   "t": -1.7,
+   "n": 9,
+   "hits": [
+    {
+     "symbol": "POLICYBZR",
+     "close": 1739.0,
+     "rsi": 67,
+     "adx": 20,
+     "ret1y": -2,
+     "from_52wh": -11,
+     "turnover_cr": 127.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "ZYDUSLIFE",
+     "close": 1205.0,
+     "rsi": 71,
+     "adx": 22,
+     "ret1y": 27,
+     "from_52wh": 0,
+     "turnover_cr": 105.0,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "MAHABANK",
+     "close": 81.9,
+     "rsi": 54,
+     "adx": 10,
+     "ret1y": 55,
+     "from_52wh": -13,
+     "turnover_cr": 76.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "ARE&M",
+     "close": 969.4,
+     "rsi": 65,
+     "adx": 27,
+     "ret1y": 1,
+     "from_52wh": -7,
+     "turnover_cr": 65.0,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "AARTIIND",
+     "close": 530.9,
+     "rsi": 69,
+     "adx": 22,
+     "ret1y": 31,
+     "from_52wh": 0,
+     "turnover_cr": 32.8,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "FINCABLES",
+     "close": 1280.1,
+     "rsi": 78,
+     "adx": 25,
+     "ret1y": 47,
+     "from_52wh": 0,
+     "turnover_cr": 21.5,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "VIJAYA",
+     "close": 1510.6,
+     "rsi": 71,
+     "adx": 27,
+     "ret1y": 40,
+     "from_52wh": 0,
+     "turnover_cr": 21.0,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "COHANCE",
+     "close": 444.4,
+     "rsi": 53,
+     "adx": 27,
+     "ret1y": -55,
+     "from_52wh": -56,
+     "turnover_cr": 19.6,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "KPIL",
+     "close": 1396.8,
+     "rsi": 67,
+     "adx": 21,
+     "ret1y": 26,
+     "from_52wh": -2,
+     "turnover_cr": 16.3,
+     "sector": "Industrials"
+    }
+   ]
+  }
+ },
+ "new": [
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "AAVAS",
+   "close": 1416.2,
+   "rsi": 50,
+   "adx": 17,
+   "ret1y": -16,
+   "from_52wh": -18,
+   "turnover_cr": 7.0,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "ADANIPOWER",
+   "close": 207.0,
+   "rsi": 39,
+   "adx": 15,
+   "ret1y": 83,
+   "from_52wh": -17,
+   "turnover_cr": 341.6,
+   "sector": "Utilities"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "ANANDRATHI",
+   "close": 2189.0,
+   "rsi": 73,
+   "adx": 30,
+   "ret1y": 69,
+   "from_52wh": 0,
+   "turnover_cr": 36.9,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "BANKINDIA",
+   "close": 145.5,
+   "rsi": 57,
+   "adx": 10,
+   "ret1y": 37,
+   "from_52wh": -15,
+   "turnover_cr": 102.9,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "COHANCE",
+   "close": 444.4,
+   "rsi": 53,
+   "adx": 27,
+   "ret1y": -55,
+   "from_52wh": -56,
+   "turnover_cr": 19.6,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "GAIL",
+   "close": 177.9,
+   "rsi": 57,
+   "adx": 18,
+   "ret1y": 6,
+   "from_52wh": -2,
+   "turnover_cr": 159.4,
+   "sector": "Utilities"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "JSWSTEEL",
+   "close": 1269.1,
+   "rsi": 49,
+   "adx": 26,
+   "ret1y": 24,
+   "from_52wh": -5,
+   "turnover_cr": 194.0,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "KAJARIACER",
+   "close": 1252.2,
+   "rsi": 64,
+   "adx": 21,
+   "ret1y": 7,
+   "from_52wh": -3,
+   "turnover_cr": 27.1,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "MAHABANK",
+   "close": 81.9,
+   "rsi": 54,
+   "adx": 10,
+   "ret1y": 55,
+   "from_52wh": -13,
+   "turnover_cr": 76.9,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "MOTILALOFS",
+   "close": 901.0,
+   "rsi": 51,
+   "adx": 31,
+   "ret1y": -1,
+   "from_52wh": -17,
+   "turnover_cr": 63.5,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "MRPL",
+   "close": 175.4,
+   "rsi": 57,
+   "adx": 23,
+   "ret1y": 45,
+   "from_52wh": -15,
+   "turnover_cr": 165.7,
+   "sector": "Energy"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "NAVA",
+   "close": 589.2,
+   "rsi": 55,
+   "adx": 18,
+   "ret1y": -3,
+   "from_52wh": -19,
+   "turnover_cr": 11.5,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "OIL",
+   "close": 472.0,
+   "rsi": 65,
+   "adx": 28,
+   "ret1y": 12,
+   "from_52wh": -9,
+   "turnover_cr": 130.5,
+   "sector": "Energy"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "POLICYBZR",
+   "close": 1739.0,
+   "rsi": 67,
+   "adx": 20,
+   "ret1y": -2,
+   "from_52wh": -11,
+   "turnover_cr": 127.9,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "RITES",
+   "close": 223.6,
+   "rsi": 53,
+   "adx": 27,
+   "ret1y": -8,
+   "from_52wh": -16,
+   "turnover_cr": 10.9,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "SCHAEFFLER",
+   "close": 4125.8,
+   "rsi": 52,
+   "adx": 12,
+   "ret1y": 1,
+   "from_52wh": -5,
+   "turnover_cr": 25.7,
+   "sector": "Consumer Cyclical"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "TATACOMM",
+   "close": 1736.2,
+   "rsi": 39,
+   "adx": 35,
+   "ret1y": 5,
+   "from_52wh": -16,
+   "turnover_cr": 33.8,
+   "sector": "Communication Services"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "TIINDIA",
+   "close": 2839.0,
+   "rsi": 49,
+   "adx": 20,
+   "ret1y": 1,
+   "from_52wh": -16,
+   "turnover_cr": 70.4,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "MACD bullish crossover",
+   "verdict": "NO EDGE",
+   "edge": -0.36,
+   "symbol": "ZYDUSLIFE",
+   "close": 1205.0,
+   "rsi": 71,
+   "adx": 22,
+   "ret1y": 27,
+   "from_52wh": 0,
+   "turnover_cr": 105.0,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Golden crossover (50/200)",
+   "verdict": "NO EDGE",
+   "edge": -0.73,
+   "symbol": "DEEPAKNTR",
+   "close": 1718.4,
+   "rsi": 53,
+   "adx": 27,
+   "ret1y": -5,
+   "from_52wh": -8,
+   "turnover_cr": 28.4,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "Golden crossover (50/200)",
+   "verdict": "NO EDGE",
+   "edge": -0.73,
+   "symbol": "GMDCLTD",
+   "close": 603.2,
+   "rsi": 58,
+   "adx": 22,
+   "ret1y": 61,
+   "from_52wh": -19,
+   "turnover_cr": 48.3,
+   "sector": "Energy"
+  },
+  {
+   "screen": "Golden crossover (50/200)",
+   "verdict": "NO EDGE",
+   "edge": -0.73,
+   "symbol": "GRSE",
+   "close": 2576.4,
+   "rsi": 46,
+   "adx": 8,
+   "ret1y": 1,
+   "from_52wh": -17,
+   "turnover_cr": 81.9,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Golden crossover (50/200)",
+   "verdict": "NO EDGE",
+   "edge": -0.73,
+   "symbol": "M&MFIN",
+   "close": 395.9,
+   "rsi": 62,
+   "adx": 48,
+   "ret1y": 57,
+   "from_52wh": -4,
+   "turnover_cr": 149.7,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "Recovery from lows",
+   "verdict": "NEGATIVE",
+   "edge": -1.52,
+   "symbol": "ABREL",
+   "close": 1375.4,
+   "rsi": 46,
+   "adx": 15,
+   "ret1y": -27,
+   "from_52wh": -29,
+   "turnover_cr": 12.7,
+   "sector": "Real Estate"
+  },
+  {
+   "screen": "Recovery from lows",
+   "verdict": "NEGATIVE",
+   "edge": -1.52,
+   "symbol": "ICICIPRULI",
+   "close": 506.4,
+   "rsi": 51,
+   "adx": 14,
+   "ret1y": -15,
+   "from_52wh": -26,
+   "turnover_cr": 64.4,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "Recovery from lows",
+   "verdict": "NEGATIVE",
+   "edge": -1.52,
+   "symbol": "ITCHOTELS",
+   "close": 168.3,
+   "rsi": 50,
+   "adx": 20,
+   "ret1y": -24,
+   "from_52wh": -32,
+   "turnover_cr": 37.0,
+   "sector": "Consumer Cyclical"
+  },
+  {
+   "screen": "Recovery from lows",
+   "verdict": "NEGATIVE",
+   "edge": -1.52,
+   "symbol": "NEWGEN",
+   "close": 535.2,
+   "rsi": 51,
+   "adx": 26,
+   "ret1y": -34,
+   "from_52wh": -46,
+   "turnover_cr": 64.2,
+   "sector": "Technology"
+  },
+  {
+   "screen": "Recovery from lows",
+   "verdict": "NEGATIVE",
+   "edge": -1.52,
+   "symbol": "TCS",
+   "close": 2349.7,
+   "rsi": 52,
+   "adx": 24,
+   "ret1y": -19,
+   "from_52wh": -27,
+   "turnover_cr": 739.3,
+   "sector": "Technology"
+  },
+  {
+   "screen": "Recovery from lows",
+   "verdict": "NEGATIVE",
+   "edge": -1.52,
+   "symbol": "UBL",
+   "close": 1388.3,
+   "rsi": 51,
+   "adx": 20,
+   "ret1y": -27,
+   "from_52wh": -28,
+   "turnover_cr": 19.2,
+   "sector": "Consumer Defensive"
+  },
+  {
+   "screen": "Trend reversal (reclaim 200DMA)",
+   "verdict": "NEGATIVE",
+   "edge": -2.19,
+   "symbol": "APLAPOLLO",
+   "close": 1997.1,
+   "rsi": 66,
+   "adx": 21,
+   "ret1y": 26,
+   "from_52wh": -12,
+   "turnover_cr": 77.1,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "Trend reversal (reclaim 200DMA)",
+   "verdict": "NEGATIVE",
+   "edge": -2.19,
+   "symbol": "BHARTIARTL",
+   "close": 1945.0,
+   "rsi": 55,
+   "adx": 30,
+   "ret1y": 5,
+   "from_52wh": -9,
+   "turnover_cr": 1049.2,
+   "sector": "Communication Services"
+  },
+  {
+   "screen": "Trend reversal (reclaim 200DMA)",
+   "verdict": "NEGATIVE",
+   "edge": -2.19,
+   "symbol": "COHANCE",
+   "close": 444.4,
+   "rsi": 53,
+   "adx": 27,
+   "ret1y": -55,
+   "from_52wh": -56,
+   "turnover_cr": 19.6,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Trend reversal (reclaim 200DMA)",
+   "verdict": "NEGATIVE",
+   "edge": -2.19,
+   "symbol": "JSWDULUX",
+   "close": 3099.4,
+   "rsi": 55,
+   "adx": 21,
+   "ret1y": -10,
+   "from_52wh": -13,
+   "turnover_cr": 4.6,
+   "sector": null
+  },
+  {
+   "screen": "Trend reversal (reclaim 200DMA)",
+   "verdict": "NEGATIVE",
+   "edge": -2.19,
+   "symbol": "POLICYBZR",
+   "close": 1739.0,
+   "rsi": 67,
+   "adx": 20,
+   "ret1y": -2,
+   "from_52wh": -11,
+   "turnover_cr": 127.9,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "AARTIIND",
+   "close": 530.9,
+   "rsi": 69,
+   "adx": 22,
+   "ret1y": 31,
+   "from_52wh": 0,
+   "turnover_cr": 32.8,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "ANANDRATHI",
+   "close": 2189.0,
+   "rsi": 73,
+   "adx": 30,
+   "ret1y": 69,
+   "from_52wh": 0,
+   "turnover_cr": 36.9,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "ANTHEM",
+   "close": 878.4,
+   "rsi": 72,
+   "adx": 29,
+   "ret1y": 19,
+   "from_52wh": -1,
+   "turnover_cr": 50.3,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "APARINDS",
+   "close": 18000.0,
+   "rsi": 77,
+   "adx": 34,
+   "ret1y": 105,
+   "from_52wh": 0,
+   "turnover_cr": 258.4,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "BELRISE",
+   "close": 261.4,
+   "rsi": 73,
+   "adx": 23,
+   "ret1y": 86,
+   "from_52wh": 0,
+   "turnover_cr": 79.5,
+   "sector": "Consumer Cyclical"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "BOSCHLTD",
+   "close": 46480.0,
+   "rsi": 77,
+   "adx": 33,
+   "ret1y": 16,
+   "from_52wh": 0,
+   "turnover_cr": 106.9,
+   "sector": "Consumer Cyclical"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "CHENNPETRO",
+   "close": 1379.5,
+   "rsi": 66,
+   "adx": 30,
+   "ret1y": 121,
+   "from_52wh": -3,
+   "turnover_cr": 201.7,
+   "sector": "Energy"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "FINCABLES",
+   "close": 1280.1,
+   "rsi": 78,
+   "adx": 25,
+   "ret1y": 47,
+   "from_52wh": 0,
+   "turnover_cr": 21.5,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "HAL",
+   "close": 4995.0,
+   "rsi": 77,
+   "adx": 25,
+   "ret1y": 14,
+   "from_52wh": 0,
+   "turnover_cr": 301.3,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "MINDACORP",
+   "close": 736.3,
+   "rsi": 64,
+   "adx": 25,
+   "ret1y": 51,
+   "from_52wh": 0,
+   "turnover_cr": 15.3,
+   "sector": "Consumer Cyclical"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "SIEMENS",
+   "close": 4019.0,
+   "rsi": 72,
+   "adx": 32,
+   "ret1y": 34,
+   "from_52wh": 0,
+   "turnover_cr": 106.4,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "VIJAYA",
+   "close": 1510.6,
+   "rsi": 71,
+   "adx": 27,
+   "ret1y": 40,
+   "from_52wh": 0,
+   "turnover_cr": 21.0,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "52-week breakout on volume",
+   "verdict": "EDGE",
+   "edge": 1.29,
+   "symbol": "ZYDUSLIFE",
+   "close": 1205.0,
+   "rsi": 71,
+   "adx": 22,
+   "ret1y": 27,
+   "from_52wh": 0,
+   "turnover_cr": 105.0,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "AARTIIND",
+   "close": 530.9,
+   "rsi": 69,
+   "adx": 22,
+   "ret1y": 31,
+   "from_52wh": 0,
+   "turnover_cr": 32.8,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "ARE&M",
+   "close": 969.4,
+   "rsi": 65,
+   "adx": 27,
+   "ret1y": 1,
+   "from_52wh": -7,
+   "turnover_cr": 65.0,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "BERGEPAINT",
+   "close": 559.8,
+   "rsi": 68,
+   "adx": 29,
+   "ret1y": 0,
+   "from_52wh": -4,
+   "turnover_cr": 15.0,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "CHENNPETRO",
+   "close": 1379.5,
+   "rsi": 66,
+   "adx": 30,
+   "ret1y": 121,
+   "from_52wh": -3,
+   "turnover_cr": 201.7,
+   "sector": "Energy"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "DEVYANI",
+   "close": 140.2,
+   "rsi": 74,
+   "adx": 39,
+   "ret1y": -13,
+   "from_52wh": -26,
+   "turnover_cr": 46.6,
+   "sector": "Consumer Cyclical"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "FINCABLES",
+   "close": 1280.1,
+   "rsi": 78,
+   "adx": 25,
+   "ret1y": 47,
+   "from_52wh": 0,
+   "turnover_cr": 21.5,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "GLAND",
+   "close": 2891.2,
+   "rsi": 76,
+   "adx": 44,
+   "ret1y": 49,
+   "from_52wh": -1,
+   "turnover_cr": 105.3,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "NATIONALUM",
+   "close": 420.0,
+   "rsi": 78,
+   "adx": 27,
+   "ret1y": 143,
+   "from_52wh": -4,
+   "turnover_cr": 215.6,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "PNB",
+   "close": 119.0,
+   "rsi": 74,
+   "adx": 29,
+   "ret1y": 19,
+   "from_52wh": -7,
+   "turnover_cr": 133.8,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "SAPPHIRE",
+   "close": 231.7,
+   "rsi": 72,
+   "adx": 32,
+   "ret1y": -28,
+   "from_52wh": -30,
+   "turnover_cr": 45.1,
+   "sector": "Consumer Cyclical"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "VIJAYA",
+   "close": 1510.6,
+   "rsi": 71,
+   "adx": 27,
+   "ret1y": 40,
+   "from_52wh": 0,
+   "turnover_cr": 21.0,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Volume thrust / accumulation",
+   "verdict": "EDGE",
+   "edge": 1.89,
+   "symbol": "ZYDUSLIFE",
+   "close": 1205.0,
+   "rsi": 71,
+   "adx": 22,
+   "ret1y": 27,
+   "from_52wh": 0,
+   "turnover_cr": 105.0,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "ADANIENSOL",
+   "close": 1599.0,
+   "rsi": 42,
+   "adx": 23,
+   "ret1y": 102,
+   "from_52wh": -8,
+   "turnover_cr": 326.6,
+   "sector": "Utilities"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "APOLLOHOSP",
+   "close": 8597.0,
+   "rsi": 39,
+   "adx": 20,
+   "ret1y": 17,
+   "from_52wh": -5,
+   "turnover_cr": 227.9,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "ASIANPAINT",
+   "close": 2740.0,
+   "rsi": 54,
+   "adx": 14,
+   "ret1y": 14,
+   "from_52wh": -7,
+   "turnover_cr": 223.6,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "BIOCON",
+   "close": 427.4,
+   "rsi": 51,
+   "adx": 15,
+   "ret1y": 12,
+   "from_52wh": -3,
+   "turnover_cr": 147.2,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "CAPLIPOINT",
+   "close": 2472.4,
+   "rsi": 44,
+   "adx": 28,
+   "ret1y": 25,
+   "from_52wh": -7,
+   "turnover_cr": 18.3,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "CCL",
+   "close": 1135.5,
+   "rsi": 42,
+   "adx": 23,
+   "ret1y": 28,
+   "from_52wh": -8,
+   "turnover_cr": 18.2,
+   "sector": "Consumer Defensive"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "CGCL",
+   "close": 228.8,
+   "rsi": 46,
+   "adx": 41,
+   "ret1y": 31,
+   "from_52wh": -12,
+   "turnover_cr": 59.2,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "CGPOWER",
+   "close": 888.0,
+   "rsi": 51,
+   "adx": 21,
+   "ret1y": 37,
+   "from_52wh": -9,
+   "turnover_cr": 320.6,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "ENGINERSIN",
+   "close": 239.2,
+   "rsi": 54,
+   "adx": 23,
+   "ret1y": 18,
+   "from_52wh": -9,
+   "turnover_cr": 25.1,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "GODREJIND",
+   "close": 1235.2,
+   "rsi": 41,
+   "adx": 33,
+   "ret1y": 11,
+   "from_52wh": -13,
+   "turnover_cr": 10.3,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "IKS",
+   "close": 1785.6,
+   "rsi": 48,
+   "adx": 22,
+   "ret1y": 11,
+   "from_52wh": -7,
+   "turnover_cr": 25.1,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "JSWSTEEL",
+   "close": 1269.1,
+   "rsi": 49,
+   "adx": 26,
+   "ret1y": 24,
+   "from_52wh": -5,
+   "turnover_cr": 194.0,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "LT",
+   "close": 4020.0,
+   "rsi": 56,
+   "adx": 21,
+   "ret1y": 13,
+   "from_52wh": -8,
+   "turnover_cr": 671.5,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "MAHABANK",
+   "close": 81.9,
+   "rsi": 54,
+   "adx": 10,
+   "ret1y": 55,
+   "from_52wh": -13,
+   "turnover_cr": 76.9,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "MARICO",
+   "close": 855.0,
+   "rsi": 50,
+   "adx": 29,
+   "ret1y": 21,
+   "from_52wh": -3,
+   "turnover_cr": 166.7,
+   "sector": "Consumer Defensive"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "OBEROIRLTY",
+   "close": 1799.9,
+   "rsi": 48,
+   "adx": 20,
+   "ret1y": 14,
+   "from_52wh": -8,
+   "turnover_cr": 43.8,
+   "sector": "Real Estate"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "STARHEALTH",
+   "close": 583.2,
+   "rsi": 50,
+   "adx": 27,
+   "ret1y": 34,
+   "from_52wh": -4,
+   "turnover_cr": 21.8,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "USHAMART",
+   "close": 499.1,
+   "rsi": 49,
+   "adx": 11,
+   "ret1y": 37,
+   "from_52wh": -3,
+   "turnover_cr": 18.2,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "Pullback to 50DMA in uptrend",
+   "verdict": "NO EDGE",
+   "edge": -0.18,
+   "symbol": "WELSPUNLIV",
+   "close": 165.2,
+   "rsi": 55,
+   "adx": 14,
+   "ret1y": 37,
+   "from_52wh": -5,
+   "turnover_cr": 21.0,
+   "sector": "Consumer Cyclical"
+  },
+  {
+   "screen": "Momentum leader",
+   "verdict": "EDGE",
+   "edge": 0.95,
+   "symbol": "DATAPATTNS",
+   "close": 4491.0,
+   "rsi": 53,
+   "adx": 10,
+   "ret1y": 76,
+   "from_52wh": -8,
+   "turnover_cr": 341.3,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Momentum leader",
+   "verdict": "EDGE",
+   "edge": 0.95,
+   "symbol": "FINCABLES",
+   "close": 1280.1,
+   "rsi": 78,
+   "adx": 25,
+   "ret1y": 47,
+   "from_52wh": 0,
+   "turnover_cr": 21.5,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Momentum leader",
+   "verdict": "EDGE",
+   "edge": 0.95,
+   "symbol": "GLAND",
+   "close": 2891.2,
+   "rsi": 76,
+   "adx": 44,
+   "ret1y": 49,
+   "from_52wh": -1,
+   "turnover_cr": 105.3,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Momentum leader",
+   "verdict": "EDGE",
+   "edge": 0.95,
+   "symbol": "HINDALCO",
+   "close": 1078.5,
+   "rsi": 71,
+   "adx": 29,
+   "ret1y": 62,
+   "from_52wh": -6,
+   "turnover_cr": 461.9,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "Momentum leader",
+   "verdict": "EDGE",
+   "edge": 0.95,
+   "symbol": "IIFL",
+   "close": 625.8,
+   "rsi": 70,
+   "adx": 44,
+   "ret1y": 48,
+   "from_52wh": -5,
+   "turnover_cr": 119.1,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "Momentum leader",
+   "verdict": "EDGE",
+   "edge": 0.95,
+   "symbol": "MCX",
+   "close": 2970.1,
+   "rsi": 64,
+   "adx": 21,
+   "ret1y": 96,
+   "from_52wh": -14,
+   "turnover_cr": 404.2,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "Momentum leader",
+   "verdict": "EDGE",
+   "edge": 0.95,
+   "symbol": "NATIONALUM",
+   "close": 420.0,
+   "rsi": 78,
+   "adx": 27,
+   "ret1y": 143,
+   "from_52wh": -4,
+   "turnover_cr": 215.6,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "Momentum leader",
+   "verdict": "EDGE",
+   "edge": 0.95,
+   "symbol": "PNBHOUSING",
+   "close": 1157.6,
+   "rsi": 66,
+   "adx": 22,
+   "ret1y": 44,
+   "from_52wh": 0,
+   "turnover_cr": 96.5,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "Momentum leader",
+   "verdict": "EDGE",
+   "edge": 0.95,
+   "symbol": "REDINGTON",
+   "close": 339.4,
+   "rsi": 68,
+   "adx": 48,
+   "ret1y": 39,
+   "from_52wh": -4,
+   "turnover_cr": 106.6,
+   "sector": "Technology"
+  },
+  {
+   "screen": "Momentum leader",
+   "verdict": "EDGE",
+   "edge": 0.95,
+   "symbol": "SCHNEIDER",
+   "close": 1431.9,
+   "rsi": 59,
+   "adx": 14,
+   "ret1y": 43,
+   "from_52wh": -5,
+   "turnover_cr": 26.2,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Momentum leader",
+   "verdict": "EDGE",
+   "edge": 0.95,
+   "symbol": "SCI",
+   "close": 298.8,
+   "rsi": 55,
+   "adx": 19,
+   "ret1y": 50,
+   "from_52wh": -13,
+   "turnover_cr": 58.6,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Volatility squeeze release",
+   "verdict": "NO EDGE",
+   "edge": -0.54,
+   "symbol": "AARTIIND",
+   "close": 530.9,
+   "rsi": 69,
+   "adx": 22,
+   "ret1y": 31,
+   "from_52wh": 0,
+   "turnover_cr": 32.8,
+   "sector": "Basic Materials"
+  },
+  {
+   "screen": "Volatility squeeze release",
+   "verdict": "NO EDGE",
+   "edge": -0.54,
+   "symbol": "ARE&M",
+   "close": 969.4,
+   "rsi": 65,
+   "adx": 27,
+   "ret1y": 1,
+   "from_52wh": -7,
+   "turnover_cr": 65.0,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Volatility squeeze release",
+   "verdict": "NO EDGE",
+   "edge": -0.54,
+   "symbol": "COHANCE",
+   "close": 444.4,
+   "rsi": 53,
+   "adx": 27,
+   "ret1y": -55,
+   "from_52wh": -56,
+   "turnover_cr": 19.6,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Volatility squeeze release",
+   "verdict": "NO EDGE",
+   "edge": -0.54,
+   "symbol": "FINCABLES",
+   "close": 1280.1,
+   "rsi": 78,
+   "adx": 25,
+   "ret1y": 47,
+   "from_52wh": 0,
+   "turnover_cr": 21.5,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Volatility squeeze release",
+   "verdict": "NO EDGE",
+   "edge": -0.54,
+   "symbol": "KPIL",
+   "close": 1396.8,
+   "rsi": 67,
+   "adx": 21,
+   "ret1y": 26,
+   "from_52wh": -2,
+   "turnover_cr": 16.3,
+   "sector": "Industrials"
+  },
+  {
+   "screen": "Volatility squeeze release",
+   "verdict": "NO EDGE",
+   "edge": -0.54,
+   "symbol": "MAHABANK",
+   "close": 81.9,
+   "rsi": 54,
+   "adx": 10,
+   "ret1y": 55,
+   "from_52wh": -13,
+   "turnover_cr": 76.9,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "Volatility squeeze release",
+   "verdict": "NO EDGE",
+   "edge": -0.54,
+   "symbol": "POLICYBZR",
+   "close": 1739.0,
+   "rsi": 67,
+   "adx": 20,
+   "ret1y": -2,
+   "from_52wh": -11,
+   "turnover_cr": 127.9,
+   "sector": "Financial Services"
+  },
+  {
+   "screen": "Volatility squeeze release",
+   "verdict": "NO EDGE",
+   "edge": -0.54,
+   "symbol": "VIJAYA",
+   "close": 1510.6,
+   "rsi": 71,
+   "adx": 27,
+   "ret1y": 40,
+   "from_52wh": 0,
+   "turnover_cr": 21.0,
+   "sector": "Healthcare"
+  },
+  {
+   "screen": "Volatility squeeze release",
+   "verdict": "NO EDGE",
+   "edge": -0.54,
+   "symbol": "ZYDUSLIFE",
+   "close": 1205.0,
+   "rsi": 71,
+   "adx": 22,
+   "ret1y": 27,
+   "from_52wh": 0,
+   "turnover_cr": 105.0,
+   "sector": "Healthcare"
+  }
+ ],
+ "fundamental_screens": {
+  "High growth + High RoE + Low PE": {
+   "n": 58,
+   "hits": [
+    {
+     "symbol": "ACE",
+     "PE": 29.4,
+     "rev_growth": 20.5,
+     "RoE": 21.7,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "ADANIPOWER",
+     "PE": 27.9,
+     "rev_growth": 34.0,
+     "RoE": 21.9,
+     "sector": "Utilities"
+    },
+    {
+     "symbol": "ANGELONE",
+     "PE": 26.3,
+     "rev_growth": 23.0,
+     "RoE": 16.5,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "APTUS",
+     "PE": 12.9,
+     "rev_growth": 16.8,
+     "RoE": 19.5,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "ASHOKLEY",
+     "PE": 29.9,
+     "rev_growth": 17.4,
+     "RoE": 24.3,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "BAJAJ-AUTO",
+     "PE": 27.8,
+     "rev_growth": 64.0,
+     "RoE": 30.2,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "BLS",
+     "PE": 15.8,
+     "rev_growth": 25.3,
+     "RoE": 28.6,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "BPCL",
+     "PE": 7.9,
+     "rev_growth": 34.4,
+     "RoE": 17.1,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "CANFINHOME",
+     "PE": 9.7,
+     "rev_growth": 22.5,
+     "RoE": 18.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "CAPLIPOINT",
+     "PE": 28.6,
+     "rev_growth": 19.6,
+     "RoE": 18.9,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "CASTROLIND",
+     "PE": 17.5,
+     "rev_growth": 25.0,
+     "RoE": 55.7,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "CGCL",
+     "PE": 19.7,
+     "rev_growth": 85.8,
+     "RoE": 15.7,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "CHENNPETRO",
+     "PE": 4.8,
+     "rev_growth": 84.8,
+     "RoE": 37.6,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "CHOLAFIN",
+     "PE": 28.5,
+     "rev_growth": 34.6,
+     "RoE": 18.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "CHOLAHLDNG",
+     "PE": 12.2,
+     "rev_growth": 16.8,
+     "RoE": 15.8,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "COALINDIA",
+     "PE": 8.1,
+     "rev_growth": 45.1,
+     "RoE": 26.2,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "CREDITACC",
+     "PE": 20.5,
+     "rev_growth": 149.5,
+     "RoE": 15.4,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "ECLERX",
+     "PE": 24.2,
+     "rev_growth": 23.3,
+     "RoE": 27.9,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "EMMVEE",
+     "PE": 17.6,
+     "rev_growth": 51.3,
+     "RoE": 34.5,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "FSL",
+     "PE": 28.6,
+     "rev_growth": 22.9,
+     "RoE": 15.0,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "GESHIP",
+     "PE": 5.0,
+     "rev_growth": 66.9,
+     "RoE": 22.0,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "HEROMOTOCO",
+     "PE": 21.5,
+     "rev_growth": 34.9,
+     "RoE": 25.2,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "HEXT",
+     "PE": 26.3,
+     "rev_growth": 17.9,
+     "RoE": 19.8,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "IGIL",
+     "PE": 29.1,
+     "rev_growth": 23.2,
+     "RoE": 34.4,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "IOC",
+     "PE": 5.8,
+     "rev_growth": 38.5,
+     "RoE": 15.3,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "IRCTC",
+     "PE": 29.0,
+     "rev_growth": 15.1,
+     "RoE": 32.3,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "JAINREC",
+     "PE": 28.3,
+     "rev_growth": 75.9,
+     "RoE": 24.1,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "KARURVYSYA",
+     "PE": 11.8,
+     "rev_growth": 26.0,
+     "RoE": 19.5,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "LLOYDSME",
+     "PE": 22.2,
+     "rev_growth": 213.9,
+     "RoE": 34.7,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "LODHA",
+     "PE": 29.9,
+     "rev_growth": 43.1,
+     "RoE": 17.7,
+     "sector": "Real Estate"
+    },
+    {
+     "symbol": "LTFOODS",
+     "PE": 22.7,
+     "rev_growth": 23.8,
+     "RoE": 35.9,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "LTM",
+     "PE": 27.1,
+     "rev_growth": 18.0,
+     "RoE": 21.3,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "LUPIN",
+     "PE": 18.6,
+     "rev_growth": 32.0,
+     "RoE": 24.6,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "M&M",
+     "PE": 20.9,
+     "rev_growth": 27.5,
+     "RoE": 19.7,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "MAHABANK",
+     "PE": 8.3,
+     "rev_growth": 21.8,
+     "RoE": 21.1,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "MMTC",
+     "PE": 21.5,
+     "rev_growth": 10644.1,
+     "RoE": 21.0,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "MOTILALOFS",
+     "PE": 27.8,
+     "rev_growth": 23.9,
+     "RoE": 15.1,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "MPHASIS",
+     "PE": 25.3,
+     "rev_growth": 17.5,
+     "RoE": 16.9,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "MUTHOOTFIN",
+     "PE": 10.2,
+     "rev_growth": 35.3,
+     "RoE": 29.1,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "MRPL",
+     "PE": 9.7,
+     "rev_growth": 120.4,
+     "RoE": 22.0,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "NATIONALUM",
+     "PE": 10.9,
+     "rev_growth": 39.3,
+     "RoE": 31.2,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "NUVAMA",
+     "PE": 29.3,
+     "rev_growth": 22.5,
+     "RoE": 25.7,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "NMDC",
+     "PE": 10.0,
+     "rev_growth": 61.9,
+     "RoE": 21.8,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "OFSS",
+     "PE": 29.2,
+     "rev_growth": 68.7,
+     "RoE": 49.2,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "PARADEEP",
+     "PE": 14.3,
+     "rev_growth": 63.1,
+     "RoE": 15.8,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "PREMIERENE",
+     "PE": 27.8,
+     "rev_growth": 35.3,
+     "RoE": 39.0,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "RAILTEL",
+     "PE": 26.5,
+     "rev_growth": 27.6,
+     "RoE": 15.3,
+     "sector": "Communication Services"
+    },
+    {
+     "symbol": "REDINGTON",
+     "PE": 16.6,
+     "rev_growth": 34.6,
+     "RoE": 16.0,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "RECLTD",
+     "PE": 5.7,
+     "rev_growth": 25.2,
+     "RoE": 19.0,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "SCI",
+     "PE": 8.5,
+     "rev_growth": 40.3,
+     "RoE": 17.8,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "SHRIRAMFIN",
+     "PE": 20.0,
+     "rev_growth": 42.8,
+     "RoE": 16.2,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "SPLPETRO",
+     "PE": 27.8,
+     "rev_growth": 23.7,
+     "RoE": 20.4,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "SUNDARMFIN",
+     "PE": 22.6,
+     "rev_growth": 26.8,
+     "RoE": 15.0,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "SUZLON",
+     "PE": 20.8,
+     "rev_growth": 22.5,
+     "RoE": 32.2,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "TECHM",
+     "PE": 28.3,
+     "rev_growth": 17.7,
+     "RoE": 17.3,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "USHAMART",
+     "PE": 28.5,
+     "rev_growth": 16.4,
+     "RoE": 16.1,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "WAAREEENER",
+     "PE": 20.3,
+     "rev_growth": 79.2,
+     "RoE": 26.4,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "ZYDUSLIFE",
+     "PE": 25.7,
+     "rev_growth": 22.0,
+     "RoE": 16.9,
+     "sector": "Healthcare"
+    }
+   ]
+  },
+  "Quality compounder": {
+   "n": 87,
+   "hits": [
+    {
+     "symbol": "ABBOTINDIA",
+     "PE": 37.8,
+     "RoE": 32.6,
+     "DE": 0.04,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "ACE",
+     "PE": 29.4,
+     "RoE": 21.7,
+     "DE": 0.0,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "ABSLAMC",
+     "PE": 29.5,
+     "RoE": 24.9,
+     "DE": 0.02,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "AEGISLOG",
+     "PE": 35.0,
+     "RoE": 20.7,
+     "DE": 0.47,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "AJANTPHARM",
+     "PE": 39.9,
+     "RoE": 25.0,
+     "DE": 0.06,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "APLAPOLLO",
+     "PE": 46.6,
+     "RoE": 23.2,
+     "DE": 0.09,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "APARINDS",
+     "PE": 58.7,
+     "RoE": 21.9,
+     "DE": 0.18,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "ASIANPAINT",
+     "PE": 55.6,
+     "RoE": 22.3,
+     "DE": 0.18,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "BAYERCROP",
+     "PE": 25.1,
+     "RoE": 24.7,
+     "DE": 0.03,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "BEL",
+     "PE": 48.9,
+     "RoE": 25.6,
+     "DE": 0.0,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "BLS",
+     "PE": 15.8,
+     "RoE": 28.6,
+     "DE": 0.15,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "BRITANNIA",
+     "PE": 52.1,
+     "RoE": 50.9,
+     "DE": 0.27,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "CAMS",
+     "PE": 38.8,
+     "RoE": 37.4,
+     "DE": 0.05,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "BSE",
+     "PE": 50.9,
+     "RoE": 35.4,
+     "DE": 0.0,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "CAPLIPOINT",
+     "PE": 28.6,
+     "RoE": 18.9,
+     "DE": 0.0,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "CASTROLIND",
+     "PE": 17.5,
+     "RoE": 55.7,
+     "DE": 0.03,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "CEMPRO",
+     "PE": 35.4,
+     "RoE": 25.0,
+     "DE": 0.38,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "CHAMBLFERT",
+     "PE": 9.2,
+     "RoE": 18.5,
+     "DE": 0.1,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "CHENNPETRO",
+     "PE": 4.8,
+     "RoE": 37.6,
+     "DE": 0.18,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "COALINDIA",
+     "PE": 8.1,
+     "RoE": 26.2,
+     "DE": 0.12,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "CRISIL",
+     "PE": 37.0,
+     "RoE": 27.0,
+     "DE": 0.1,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "DCMSHRIRAM",
+     "PE": 11.0,
+     "RoE": 19.1,
+     "DE": 0.38,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "DIXON",
+     "PE": 41.9,
+     "RoE": 38.0,
+     "DE": 0.18,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "ECLERX",
+     "PE": 24.2,
+     "RoE": 27.9,
+     "DE": 0.15,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "EICHERMOT",
+     "PE": 38.6,
+     "RoE": 23.0,
+     "DE": 0.02,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "ELGIEQUIP",
+     "PE": 42.4,
+     "RoE": 19.2,
+     "DE": 0.24,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "EMAMILTD",
+     "PE": 23.4,
+     "RoE": 25.6,
+     "DE": 0.06,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "EMCURE",
+     "PE": 37.7,
+     "RoE": 20.4,
+     "DE": 0.31,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "EMMVEE",
+     "PE": 17.6,
+     "RoE": 34.5,
+     "DE": 0.1,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "ENGINERSIN",
+     "PE": 19.6,
+     "RoE": 22.0,
+     "DE": 0.01,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "GESHIP",
+     "PE": 5.0,
+     "RoE": 22.0,
+     "DE": 0.06,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "GILLETTE",
+     "PE": 46.3,
+     "RoE": 56.4,
+     "DE": 0.0,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "GLAXO",
+     "PE": 42.2,
+     "RoE": 47.2,
+     "DE": 0.01,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "GODFRYPHLP",
+     "PE": 24.6,
+     "RoE": 22.0,
+     "DE": 0.04,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "GROWW",
+     "PE": 50.1,
+     "RoE": 25.3,
+     "DE": 0.03,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "GRSE",
+     "PE": 37.7,
+     "RoE": 30.5,
+     "DE": 0.01,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "HBLENGINE",
+     "PE": 24.6,
+     "RoE": 34.9,
+     "DE": 0.03,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "HAL",
+     "PE": 35.5,
+     "RoE": 22.7,
+     "DE": 0.0,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "HDFCAMC",
+     "PE": 36.5,
+     "RoE": 31.8,
+     "DE": 0.02,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "HCLTECH",
+     "PE": 21.3,
+     "RoE": 23.5,
+     "DE": 0.07,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "HEROMOTOCO",
+     "PE": 21.5,
+     "RoE": 25.2,
+     "DE": 0.04,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "HEXT",
+     "PE": 26.3,
+     "RoE": 19.8,
+     "DE": 0.1,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "HINDCOPPER",
+     "PE": 46.2,
+     "RoE": 34.1,
+     "DE": 0.03,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "HINDUNILVR",
+     "PE": 46.5,
+     "RoE": 21.7,
+     "DE": 0.03,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "HYUNDAI",
+     "PE": 36.7,
+     "RoE": 24.7,
+     "DE": 0.05,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "IEX",
+     "PE": 22.0,
+     "RoE": 37.4,
+     "DE": 0.01,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "IGIL",
+     "PE": 29.1,
+     "RoE": 34.4,
+     "DE": 0.1,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "IKS",
+     "PE": 39.7,
+     "RoE": 27.3,
+     "DE": 0.27,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "INDIAMART",
+     "PE": 22.1,
+     "RoE": 22.1,
+     "DE": 0.01,
+     "sector": "Communication Services"
+    },
+    {
+     "symbol": "INFY",
+     "PE": 15.2,
+     "RoE": 34.1,
+     "DE": 0.1,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "IRCTC",
+     "PE": 29.0,
+     "RoE": 32.3,
+     "DE": 0.02,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "ITC",
+     "PE": 17.6,
+     "RoE": 27.4,
+     "DE": 0.03,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "KFINTECH",
+     "PE": 47.1,
+     "RoE": 20.3,
+     "DE": 0.03,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "LICI",
+     "PE": 8.7,
+     "RoE": 34.0,
+     "DE": 0.0,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "LTFOODS",
+     "PE": 22.7,
+     "RoE": 35.9,
+     "DE": 0.28,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "LTM",
+     "PE": 27.1,
+     "RoE": 21.3,
+     "DE": 0.1,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "LTTS",
+     "PE": 29.9,
+     "RoE": 19.8,
+     "DE": 0.09,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "LUPIN",
+     "PE": 18.6,
+     "RoE": 24.6,
+     "DE": 0.29,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "MARICO",
+     "PE": 59.5,
+     "RoE": 44.8,
+     "DE": 0.12,
+     "sector": "Consumer Defensive"
+    },
+    {
+     "symbol": "MAZDOCK",
+     "PE": 38.7,
+     "RoE": 27.4,
+     "DE": 0.04,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "MCX",
+     "PE": 49.0,
+     "RoE": 36.6,
+     "DE": 0.0,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "MMTC",
+     "PE": 21.5,
+     "RoE": 21.0,
+     "DE": 0.0,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "MSUMI",
+     "PE": 43.0,
+     "RoE": 28.8,
+     "DE": 0.11,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "NATIONALUM",
+     "PE": 10.9,
+     "RoE": 31.2,
+     "DE": 0.0,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "NAM-INDIA",
+     "PE": 46.5,
+     "RoE": 34.7,
+     "DE": 0.02,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "NAVINFLUOR",
+     "PE": 53.6,
+     "RoE": 19.9,
+     "DE": 0.32,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "NBCC",
+     "PE": 33.5,
+     "RoE": 24.7,
+     "DE": 0.0,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "NEULANDLAB",
+     "PE": 59.9,
+     "RoE": 26.5,
+     "DE": 0.16,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "NMDC",
+     "PE": 10.0,
+     "RoE": 21.8,
+     "DE": 0.19,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "OFSS",
+     "PE": 29.2,
+     "RoE": 49.2,
+     "DE": 0.01,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "PAGEIND",
+     "PE": 53.3,
+     "RoE": 50.9,
+     "DE": 0.18,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "PERSISTENT",
+     "PE": 45.2,
+     "RoE": 24.4,
+     "DE": 0.06,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "PETRONET",
+     "PE": 10.6,
+     "RoE": 18.9,
+     "DE": 0.11,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "POLYCAB",
+     "PE": 49.1,
+     "RoE": 23.6,
+     "DE": 0.02,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "RRKABEL",
+     "PE": 52.6,
+     "RoE": 23.7,
+     "DE": 0.13,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "SCHAEFFLER",
+     "PE": 51.3,
+     "RoE": 20.4,
+     "DE": 0.01,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "SONATSOFTW",
+     "PE": 19.5,
+     "RoE": 24.3,
+     "DE": 0.38,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "SPLPETRO",
+     "PE": 27.8,
+     "RoE": 20.4,
+     "DE": 0.06,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "SUZLON",
+     "PE": 20.8,
+     "RoE": 32.2,
+     "DE": 0.03,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "TATAELXSI",
+     "PE": 36.0,
+     "RoE": 21.5,
+     "DE": 0.05,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "TCS",
+     "PE": 17.2,
+     "RoE": 45.4,
+     "DE": 0.1,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "TENNIND",
+     "PE": 35.9,
+     "RoE": 50.1,
+     "DE": 0.04,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "TMCV",
+     "PE": 41.7,
+     "RoE": 32.9,
+     "DE": 0.44,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "TRAVELFOOD",
+     "PE": 41.7,
+     "RoE": 30.5,
+     "DE": 0.17,
+     "sector": "Consumer Cyclical"
+    },
+    {
+     "symbol": "TRITURBINE",
+     "PE": 56.1,
+     "RoE": 23.2,
+     "DE": 0.02,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "WAAREEENER",
+     "PE": 20.3,
+     "RoE": 26.4,
+     "DE": 0.21,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "WELCORP",
+     "PE": 21.5,
+     "RoE": 25.2,
+     "DE": 0.25,
+     "sector": "Basic Materials"
+    }
+   ]
+  },
+  "Loss to profit (turnaround)": {
+   "n": 21,
+   "hits": [
+    {
+     "symbol": "ADANIGREEN",
+     "last_2q_cr": [
+      397.0,
+      845.0
+     ],
+     "worst_prior_cr": -41.0,
+     "sector": "Utilities"
+    },
+    {
+     "symbol": "BHEL",
+     "last_2q_cr": [
+      1290.5,
+      376.7
+     ],
+     "worst_prior_cr": -455.5,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "CHENNPETRO",
+     "last_2q_cr": [
+      1421.8,
+      1031.3
+     ],
+     "worst_prior_cr": -40.1,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "GMRAIRPORT",
+     "last_2q_cr": [
+      121.8,
+      302.4
+     ],
+     "worst_prior_cr": -237.6,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "HFCL",
+     "last_2q_cr": [
+      178.5,
+      228.6
+     ],
+     "worst_prior_cr": -81.4,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "INDIACEM",
+     "last_2q_cr": [
+      59.5,
+      26.9
+     ],
+     "worst_prior_cr": -132.9,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "INDUSINDBK",
+     "last_2q_cr": [
+      594.2,
+      1037.0
+     ],
+     "worst_prior_cr": -2328.9,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "JINDALSTEL",
+     "last_2q_cr": [
+      1044.8,
+      844.8
+     ],
+     "worst_prior_cr": -339.4,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "JSWCEMENT",
+     "last_2q_cr": [
+      142.1,
+      371.3
+     ],
+     "worst_prior_cr": -68.8,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "MANAPPURAM",
+     "last_2q_cr": [
+      241.1,
+      404.0
+     ],
+     "worst_prior_cr": -191.2,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "MRPL",
+     "last_2q_cr": [
+      117.0,
+      945.7
+     ],
+     "worst_prior_cr": -270.7,
+     "sector": "Energy"
+    },
+    {
+     "symbol": "NIVABUPA",
+     "last_2q_cr": [
+      345.1,
+      137.8
+     ],
+     "worst_prior_cr": -87.6,
+     "sector": "Financial Services"
+    },
+    {
+     "symbol": "ONESOURCE",
+     "last_2q_cr": [
+      4.6,
+      25.0
+     ],
+     "worst_prior_cr": -88.7,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "PAYTM",
+     "last_2q_cr": [
+      184.0,
+      220.0
+     ],
+     "worst_prior_cr": -540.0,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "PINELABS",
+     "last_2q_cr": [
+      59.4,
+      19.6
+     ],
+     "worst_prior_cr": -28.9,
+     "sector": "Technology"
+    },
+    {
+     "symbol": "PVRINOX",
+     "last_2q_cr": [
+      186.7,
+      56.5
+     ],
+     "worst_prior_cr": -125.0,
+     "sector": "Communication Services"
+    },
+    {
+     "symbol": "RKFORGE",
+     "last_2q_cr": [
+      55.9,
+      46.9
+     ],
+     "worst_prior_cr": -9.5,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "TITAGARH",
+     "last_2q_cr": [
+      48.0,
+      54.0
+     ],
+     "worst_prior_cr": -122.4,
+     "sector": "Industrials"
+    },
+    {
+     "symbol": "UPL",
+     "last_2q_cr": [
+      1061.0,
+      10.0
+     ],
+     "worst_prior_cr": -88.0,
+     "sector": "Basic Materials"
+    },
+    {
+     "symbol": "WOCKPHARMA",
+     "last_2q_cr": [
+      59.0,
+      166.0
+     ],
+     "worst_prior_cr": -90.0,
+     "sector": "Healthcare"
+    },
+    {
+     "symbol": "ZYDUSWELL",
+     "last_2q_cr": [
+      162.0,
+      118.9
+     ],
+     "worst_prior_cr": -39.9,
+     "sector": "Consumer Defensive"
+    }
+   ]
+  }
+ }
+}

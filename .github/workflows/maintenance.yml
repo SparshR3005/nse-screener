@@ -1,0 +1,50 @@
+name: Maintenance
+
+# Fundamentals move quarterly, not hourly - refreshing them on every intraday
+# run would waste ~8 minutes a time and hammer Yahoo into rate-limiting the
+# price pulls that actually matter.
+on:
+  schedule:
+    - cron: "30 12 * * 6"      # Saturday 18:00 IST: fundamentals + universe
+  workflow_dispatch:
+    inputs:
+      recalibrate:
+        description: "Also re-run the full base-rate calibration (slow, ~20 min)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Refresh universe + fundamentals
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python screener/refresh.py
+
+      - name: Recalibrate base rates
+        if: inputs.recalibrate
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python screener/calibrate.py
+
+      - name: Commit
+        run: |
+          git config user.name  "screener-bot"
+          git config user.email "screener-bot@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet && echo "no change" && exit 0
+          git commit -m "maintenance: refresh reference data $(date -u +'%Y-%m-%d')"
+          git pull --rebase --autostash origin ${{ github.ref_name }}
+          git push

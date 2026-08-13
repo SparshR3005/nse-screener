@@ -1,0 +1,78 @@
+name: Intraday screener
+
+# NSE trades 09:15-15:30 IST = 03:45-10:00 UTC. Seven runs a session:
+# six through the day plus one just after the close, which is the only
+# run whose signals match how the screens were calibrated.
+#   04:15 UTC = 09:45 IST      07:15 UTC = 12:45 IST
+#   05:15 UTC = 10:45 IST      08:15 UTC = 13:45 IST
+#   06:15 UTC = 11:45 IST      09:15 UTC = 14:45 IST
+#   10:05 UTC = 15:35 IST  <- post-close, CONFIRMED
+#
+# GitHub's scheduler is best-effort and commonly runs 5-15 minutes late
+# (longer at the top of the hour). These are offset to :15 to dodge the
+# worst of the contention. Do not treat the timing as exact.
+on:
+  schedule:
+    - cron: "15 4-9 * * 1-5"
+    - cron: "5 10 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      edge_only:
+        description: "Alert only on screens with demonstrated edge"
+        type: boolean
+        default: true
+
+concurrency:
+  group: screener
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run screener
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python screener/run.py --refresh-prices
+
+      - name: Notify
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          ALERT_ISSUE_NUMBER: ${{ vars.ALERT_ISSUE_NUMBER }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          EDGE_ONLY: ${{ inputs.edge_only == false && '0' || '1' }}
+        run: python screener/notify.py
+
+      - name: Publish dashboard
+        run: python screener/dashboard.py
+
+      - name: Commit results
+        run: |
+          git config user.name  "screener-bot"
+          git config user.email "screener-bot@users.noreply.github.com"
+          git add data/latest.json data/state.json docs/index.html
+          git diff --staged --quiet && echo "no change" && exit 0
+          git commit -m "screener: $(date -u +'%Y-%m-%d %H:%M') UTC"
+          # another run may have landed while this one worked
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin ${{ github.ref_name }} && \
+            git push && exit 0
+            sleep 5
+          done
+          echo "push failed after 3 attempts" && exit 1

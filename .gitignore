@@ -1,0 +1,6 @@
+# Price cache is re-pulled on every run (--refresh-prices); committing it
+# would add ~10MB of churn per run and gain nothing.
+data/prices.pkl
+*.pyc
+__pycache__/
+.venv/

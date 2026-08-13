@@ -1,0 +1,25 @@
+{
+ "_meta": {
+  "measured_on": "2026-08-13",
+  "window": "2015-01 to 2026-08",
+  "universe": "467 liquid NIFTY 500 names",
+  "stock_days": 882042,
+  "method": "mean 126-session excess return vs the SAME-DATE cross-sectional mean. Date-matching separates stock selection from market timing. Mean-vs-mean is required: scoring a mean against a median baseline gives a random control group t=+17.0 because stock returns are right-skewed. Against the mean the same control scores t=-0.1.",
+  "baseline": {
+   "P_touch_plus10pct_within_126d": 73.9,
+   "median_days_to_plus10pct": 23,
+   "median_126d_return_pct": 7.23,
+   "caveat": "Calibrated across a period that was positive in 9 of 12 years. Yearly P(+10%) ranged 59.6% (2015) to 89.9% (2023) - the year matters far more than the screen."
+  }
+ },
+ "Volume thrust / accumulation":        {"edge_pct": 1.89,  "t": 5.3,  "verdict": "EDGE",     "signals": 10436, "p_hit10": 77.0, "median_days": 19, "median_drawdown_pct": -7.9},
+ "52-week breakout on volume":          {"edge_pct": 1.29,  "t": 4.2,  "verdict": "EDGE",     "signals": 12348, "p_hit10": 76.9, "median_days": 22, "median_drawdown_pct": -7.7},
+ "Momentum leader":                     {"edge_pct": 0.95,  "t": 3.1,  "verdict": "EDGE",     "signals": 11134, "p_hit10": 77.7, "median_days": 21, "median_drawdown_pct": -7.3},
+ "Pullback to 50DMA in uptrend":        {"edge_pct": -0.18, "t": -0.9, "verdict": "NO EDGE",  "signals": 24330, "p_hit10": 74.7, "median_days": 23, "median_drawdown_pct": -7.4},
+ "Oversold bounce (RSI<32 in uptrend)": {"edge_pct": -0.27, "t": -0.4, "verdict": "NO EDGE",  "signals": 1619,  "p_hit10": 77.1, "median_days": 20, "median_drawdown_pct": -7.3},
+ "MACD bullish crossover":              {"edge_pct": -0.36, "t": -1.7, "verdict": "NO EDGE",  "signals": 19978, "p_hit10": 73.0, "median_days": 24, "median_drawdown_pct": -7.5},
+ "Volatility squeeze release":          {"edge_pct": -0.54, "t": -1.7, "verdict": "NO EDGE",  "signals": 9670,  "p_hit10": 72.2, "median_days": 24, "median_drawdown_pct": -7.4},
+ "Golden crossover (50/200)":           {"edge_pct": -0.73, "t": -1.4, "verdict": "NO EDGE",  "signals": 3625,  "p_hit10": 72.4, "median_days": 25, "median_drawdown_pct": -7.2},
+ "Recovery from lows":                  {"edge_pct": -1.52, "t": -2.8, "verdict": "NEGATIVE", "signals": 3174,  "p_hit10": 70.1, "median_days": 20, "median_drawdown_pct": -7.7},
+ "Trend reversal (reclaim 200DMA)":     {"edge_pct": -2.19, "t": -4.9, "verdict": "NEGATIVE", "signals": 4153,  "p_hit10": 70.1, "median_days": 24, "median_drawdown_pct": -7.4}
+}

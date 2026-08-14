@@ -105,6 +105,26 @@ def fetch_prices(syms, years=3, retries=3):
     return out
 
 
+def fetch_benchmark(years=3, retries=3):
+    """NIFTY 50 close, for relative-strength screens."""
+    start = (pd.Timestamp.today() - pd.DateOffset(years=years)).strftime("%Y-%m-%d")
+    for attempt in range(retries):
+        try:
+            n = yf.download("^NSEI", start=start, interval="1d",
+                            auto_adjust=True, progress=False)
+            if n is None or not len(n):
+                raise RuntimeError("empty")
+            if isinstance(n.columns, pd.MultiIndex):
+                n.columns = n.columns.droplevel(1)
+            return n["Close"].dropna()
+        except Exception:
+            if attempt == retries - 1:
+                print("  benchmark fetch failed; RS screens will be inert")
+                return None
+            time.sleep(3 * (attempt + 1))
+    return None
+
+
 def save_prices(px):
     with open(PRICES_PKL, "wb") as f:
         pickle.dump(px, f)

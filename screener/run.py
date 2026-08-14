@@ -97,6 +97,8 @@ def main():
     calib = D.load_json(CALIB, {})
     fund = D.load_json(D.FUND_JSON, {})
     quarterly = D.load_json(D.QUARTERLY_JSON, {})
+    # RS screens compare each stock to the index; without this they are inert
+    bench = D.fetch_benchmark(years=3)
 
     frames, asof = {}, None
     for s, df in px.items():
@@ -104,7 +106,7 @@ def main():
             continue
         if provisional:
             df = M.project_last_volume(df, frac)
-        f = indicators(df)
+        f = indicators(df, bench)
         last = f.iloc[-1]
         if not (last.turnover > MIN_TURNOVER and last.Close > MIN_PRICE):
             continue

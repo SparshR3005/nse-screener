@@ -44,6 +44,15 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Show resolved dependency versions
+        run: python -c "import pandas,numpy,yfinance;print('pandas',pandas.__version__,'numpy',numpy.__version__,'yfinance',yfinance.__version__)"
+
+      # These run before the screener on purpose. Both bugs they cover
+      # produced plausible output rather than a crash, so a silent failure
+      # here would ship wrong signals rather than no signals.
+      - name: Regression tests
+        run: python screener/test_screens.py
+
       - name: Run screener
         env:
           PYTHONUNBUFFERED: "1"

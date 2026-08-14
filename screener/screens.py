@@ -93,11 +93,20 @@ def _edge(cond, warm=None):
 
     `warm` marks bars where every long-window indicator is defined; a
     transition is only real if the previous bar was already warm.
+
+    Dtype discipline below is not cosmetic. `cond.shift(1)` on a bool Series
+    yields object dtype. pandas 2.x silently downcast that back to bool on
+    .fillna(); pandas 3.0 removed the downcast, so `~` fell through to Python
+    bitwise on objects and returned -1/-2 - both truthy. `_edge` then
+    degenerated to `cond`, reporting every bar a condition HELD rather than
+    the bar it began, and the runner announced 200 golden crosses in one day.
+    shift(fill_value=...) plus an explicit astype(bool) is version-proof.
     """
-    cond = cond.fillna(False)
-    fired = cond & ~cond.shift(1).fillna(False)
+    cond = cond.fillna(False).astype(bool)
+    prev = cond.shift(1, fill_value=False).astype(bool)
+    fired = cond & ~prev
     if warm is not None:
-        fired &= warm.shift(1).fillna(False)
+        fired &= warm.fillna(False).astype(bool).shift(1, fill_value=False).astype(bool)
     return fired
 
 

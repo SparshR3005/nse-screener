@@ -61,6 +61,9 @@ def project_last_volume(df, frac):
     if frac >= 1.0 or len(df) == 0:
         return df
     out = df.copy()
-    out.iloc[-1, out.columns.get_loc("Volume")] = (
-        out["Volume"].iat[-1] / frac)
+    # A fresh yfinance pull types Volume as int64; assigning a projected float
+    # into it raises. Rebuild the column as float rather than setting in place.
+    vol = out["Volume"].astype("float64")
+    vol.iloc[-1] = vol.iloc[-1] / frac
+    out["Volume"] = vol
     return out

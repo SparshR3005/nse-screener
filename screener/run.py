@@ -1,4 +1,4 @@
-"""
+﻿"""
 Live screener run. Called by the intraday workflow 7x a session and once
 after the close.
 
@@ -100,7 +100,7 @@ def main():
 
     frames, asof = {}, None
     for s, df in px.items():
-        if len(df) < 260:
+        if len(df) < D.MIN_BARS:
             continue
         if provisional:
             df = M.project_last_volume(df, frac)

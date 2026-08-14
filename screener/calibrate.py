@@ -27,7 +27,11 @@ MIN_TURNOVER, MIN_PRICE = 2.5e7, 50.0
 
 
 def main():
-    px = D.load_prices()
+    # Calibration needs a decade, not the 3 years the live screener caches.
+    # Fetch its own history rather than reusing data/prices.pkl.
+    print("fetching 11 years of history for calibration ...")
+    px = D.fetch_prices(D.universe(), years=11)
+    print(f"got {len(px)} symbols")
     frames = {}
     for s, df in px.items():
         f = indicators(df)

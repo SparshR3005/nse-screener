@@ -1,4 +1,4 @@
-"""Data layer: universe, prices, fundamentals. Built to tolerate a cloud runner."""
+﻿"""Data layer: universe, prices, fundamentals. Built to tolerate a cloud runner."""
 import io
 import json
 import os
@@ -62,13 +62,24 @@ def _chunks(seq, n):
         yield seq[i:i + n]
 
 
-def fetch_prices(syms, period="400d", retries=3):
-    """Yahoo throttles cloud IPs; retry each batch before giving up on it."""
+MIN_BARS = 330          # 252 for the 52w windows + ~78 bars of live signal
+
+
+def fetch_prices(syms, years=3, retries=3):
+    """Yahoo throttles cloud IPs; retry each batch before giving up on it.
+
+    Uses an explicit start date, not `period=`. "400d" is not a documented
+    yfinance period and it silently returned different bar counts on my
+    machine and on the runner - which is how a warm-up artifact turned into
+    207 phantom golden crosses. Three years leaves the 252-bar windows warm
+    with room to spare.
+    """
+    start = (pd.Timestamp.today() - pd.DateOffset(years=years)).strftime("%Y-%m-%d")
     out = {}
     for batch in _chunks([s + ".NS" for s in syms], 40):
         for attempt in range(retries):
             try:
-                raw = yf.download(batch, period=period, interval="1d",
+                raw = yf.download(batch, start=start, interval="1d",
                                   auto_adjust=True, group_by="column",
                                   threads=True, progress=False)
                 if raw is None or not len(raw):
@@ -89,7 +100,7 @@ def fetch_prices(syms, period="400d", retries=3):
                 continue
             df = df[["Open", "High", "Low", "Close", "Volume"]].dropna()
             df = df[df["Volume"] > 0]
-            if len(df) >= 260:
+            if len(df) >= MIN_BARS:
                 out[t[:-3]] = df
     return out
 
